@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51240f56-492a-4019-96c8-427c1442b873" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Mailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Mailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.89c567658a9f300ca861a4b1ef827d17.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/header.89c567658a9f300ca861a4b1ef827d17.rtpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/category.003873c670aac278cd0a8e0d7f83d824.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/category.003873c670aac278cd0a8e0d7f83d824.rtpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/category.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
@@ -58,6 +52,15 @@
               <folding>
                 <element signature="e#64#79#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -111,6 +114,7 @@
         <option value="$PROJECT_DIR$/views/footer.html" />
         <option value="$PROJECT_DIR$/views/categories-menu.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/category.html" />
       </list>
     </option>
   </component>
@@ -230,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525839586693</updated>
-      <workItem from="1525839589918" duration="5810000" />
+      <workItem from="1525839589918" duration="6537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5810000" />
+    <option name="totallyTimeSpent" value="6537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -322,6 +326,13 @@
           <folding>
             <element signature="e#64#79#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>

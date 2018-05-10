@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Hcode\Model;
 
@@ -21,7 +21,7 @@ class Product extends Model {
 	{
 
 		foreach ($list as &$row) {
-			
+
 			$p = new Product();
 			$p->setData($row);
 			$row = $p->getValues();
@@ -47,6 +47,7 @@ class Product extends Model {
 			":vlweight"=>$this->getvlweight(),
 			":desurl"=>$this->getdesurl()
 		));
+
 
 		$this->setData($results[0]);
 
@@ -80,15 +81,15 @@ class Product extends Model {
 	{
 
 		if (file_exists(
-			$_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 
-			"res" . DIRECTORY_SEPARATOR . 
-			"site" . DIRECTORY_SEPARATOR . 
-			"img" . DIRECTORY_SEPARATOR . 
-			"products" . DIRECTORY_SEPARATOR . 
+			$_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR .
+			"res" . DIRECTORY_SEPARATOR .
+			"site" . DIRECTORY_SEPARATOR .
+			"img" . DIRECTORY_SEPARATOR .
+			"product" . DIRECTORY_SEPARATOR .
 			$this->getidproduct() . ".jpg"
 			)) {
 
-			$url = "/res/site/img/products/" . $this->getidproduct() . ".jpg";
+			$url = "/res/site/img/product/" . $this->getidproduct() . ".jpg";
 
 		} else {
 
@@ -134,14 +135,14 @@ class Product extends Model {
 
 		}
 
-		$dist = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 
-			"res" . DIRECTORY_SEPARATOR . 
-			"site" . DIRECTORY_SEPARATOR . 
-			"img" . DIRECTORY_SEPARATOR . 
-			"products" . DIRECTORY_SEPARATOR . 
+		$dist = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR .
+			"res" . DIRECTORY_SEPARATOR .
+			"site" . DIRECTORY_SEPARATOR .
+			"img" . DIRECTORY_SEPARATOR .
+			"product" . DIRECTORY_SEPARATOR .
 			$this->getidproduct() . ".jpg";
 
-		imagejpeg($image, $dist);
+		imagejpeg($image,$dist);
 
 		imagedestroy($image);
 

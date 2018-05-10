@@ -6,8 +6,8 @@ use Rain\Tpl;
 
 class Mailer {
 	
-	const USERNAME = "cursophp7hcode@gmail.com";
-	const PASSWORD = "<?password?>";
+	const USERNAME = "leeo.luangg@gmail.com";
+	const PASSWORD = "97486996";
 	const NAME_FROM = "Hcode Store";
 
 	private $mail;
@@ -52,7 +52,16 @@ class Mailer {
 		// if your network does not support SMTP over IPv6
 
 		//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-		$this->mail->Port = 587;
+		$this->mail->Port = 465;
+
+        $this->mail->isSMTP();
+        $this->mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
 
 		//Set the encryption system to use - ssl (deprecated) or tls
 		$this->mail->SMTPSecure = 'tls';
